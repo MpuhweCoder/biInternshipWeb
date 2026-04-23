@@ -1,0 +1,39 @@
+/* internships.css */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.pro-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 4px;
+    background: #e9ecef;
+    border-radius: 4px;
+    z-index: 0;
+}
+
+@media (max-width: 767px) {
+    .pro-timeline::before {
+        display: none;
+    }
+}
+
+.timeline-badge {
+    width: 65px;
+    height: 65px;
+}
+
+.timeline-card {
+    transition: all 0.3s ease;
+}
+
+.timeline-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+    background-color: #ffffff !important;
+}
