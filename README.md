@@ -53,5 +53,3 @@ I would really appreciate any feedback or suggestions to help me improve further
 
  Author  ange Umutoni
 
-Your Name
-Intern @ BI Enterprises
