@@ -1,4 +1,4 @@
-BI Internship Web Project
+Internship Web Project
 
 This project was developed as part of my internship task . It is a modern, responsive web application designed using my own ideas, research, and learning throughout the process.
 
